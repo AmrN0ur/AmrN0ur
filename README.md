@@ -3,11 +3,11 @@
 👋 Hi, I'm Amr Nour El-Din  
 Frontend Developer from Egypt specializing in building modern, scalable web applications using **Vue.js** and JavaScript.
 
-I focus on designing **modular frontend architectures**, optimizing performance for large-scale applications, and building maintainable UI systems for real-world products.
+I focus on designing **modular frontend architectures**, improving performance for large-scale applications, and building maintainable UI systems for real-world products and business systems.
 
-I have hands-on experience working on **live SaaS platforms, production POS systems, and ERP solutions**, including systems currently used in real environments.
+I have hands-on experience working on **live SaaS platforms, production systems, and business applications**, including systems currently used in real environments.
 
-💡 I enjoy solving performance challenges, improving system structure, and continuously growing as a software engineer.
+💡 I enjoy solving system-level challenges, improving architecture design, and continuously growing as a software engineer.
 
 ---
 
@@ -16,63 +16,84 @@ I have hands-on experience working on **live SaaS platforms, production POS syst
 ## 🏫 MyAcademy — Multi-Tenant SaaS Platform (LIVE)
 🌐 https://myacademy.tech
 
-A live multi-tenant educational SaaS platform where each tenant operates under its own subdomain.
+A live multi-tenant educational SaaS platform where each tenant operates under a dedicated subdomain.
 
-Key Features:
+**Key Features:**
 - Multi-tenant architecture
 - Role-based access control
 - Authentication & session management
 - Pagination, filtering, and search systems
 - Large dataset handling (14,000+ records)
 - Performance optimization for data-heavy interfaces
-- Production deployment
 
-Tech Stack:
+**Tech Stack:**
 Vue 3 — Tailwind CSS — Vue Router — REST APIs
 
 ---
 
-## 🧾 QuantixPro — POS/BOS System (Production Use)
-A wholesale management system currently running in a real client environment on a local machine inside a commercial store.
+## 🧾 QuantixPro — Production POS/BOS System
 
-The system receives updates through GitHub and supports simple one-click update installation from within the application.
+A full-stack production system for wholesale business management, developed entirely by me covering backend, frontend, and deployment.
 
-Key Features:
-- Full POS workflow system
-- Modular business architecture
-- Offline-first local deployment
-- GitHub-based update distribution system
-- TailAdmin-based UI customization
-- Stable production usage in real business operations
+The system is currently running in a real production environment for a wholesale business on a local machine and operates as a self-hosted network application accessible across multiple devices.
 
-Tech Stack:
-Vue 3 — Tailwind CSS — TailAdmin
+**System Overview:**
+- Backend: .NET 10 ASP.NET Core REST API  
+- Database: PostgreSQL with Entity Framework Core (Auto Migrations)  
+- Frontend: Vue 3 + Tailwind CSS + customized TailAdmin (RTL optimized)  
+- Deployment: Cross-platform local system (Windows & Linux)
+
+The system is exposed over the local network (`0.0.0.0`) and accessible from any device via a responsive web interface.
+
+**Key Features:**
+- RESTful API architecture
+- Relational database design
+- Automated migrations using EF Core
+- Modular backend structure
+- Environment-based configuration (.env)
+- Production deployment in real business usage
+
+**Update System:**
+- GitHub-based update mechanism for production releases
+- Secure token-based access for update metadata
+- Versioning system (major / minor / patch)
+- In-app update information display before installation
 
 ---
 
-## 📦 FlexStock System
-Inventory and maintenance management system built with modular architecture and backend integration.
+## 📦 FlexStock System — AI-Enhanced Inventory & Business System
 
-Key Features:
-- Inventory tracking workflows
+A modular inventory and maintenance system enhanced with AI-powered business insights to support decision-making for small and medium businesses.
+
+**System Architecture:**
+- Backend: Fastify.js + SQLite  
+- Frontend: Vue 3 + Vite + Tailwind CSS + customized TailAdmin (RTL optimized)  
+- Modular API-driven architecture  
+
+**Core Features:**
+- Inventory and stock management workflows
 - Maintenance operations system
 - Modular UI structure
-- Backend integration via Fastify APIs
+- REST API integration
 
-Tech Stack:
-Fastify.js — SQLite — Vue 3 — Tailwind CSS
+**AI Features:**
+- Automated business reports (sales, inventory, debts, best products)
+- AI-generated insights for business decisions and risk detection
+- Product analysis with external knowledge enhancement
+- AI assistant for maintenance and troubleshooting support
+- Multi-provider fallback system (Google AI Studio + OpenRouter)
 
 ---
 
 ## 🏢 Almomayyaz ERP System
-Team-based ERP system built for investment management workflows.
+Team-based ERP system for investment and business management workflows.
 
-Key Features:
+**Key Features:**
 - Business process management
 - Role-based system structure
-- Team collaboration development workflow
+- Team-based development workflow
 
-Tech Stack:
+**Tech Stack:**
 HTML — CSS — JavaScript — Laravel
 
 ---
@@ -95,11 +116,7 @@ HTML — CSS — JavaScript — Laravel
 
 ---
 
-### Backend Exposure & REST APIs
-
-> Hands-on experience building REST APIs and backend services using multiple technologies in real projects and structured learning environments.  
-> Focused mainly on Fastify and ASP.NET, with growing experience in Go (Gin) and exposure to Laravel/PHP.
-
+### Backend & APIs
 ![Fastify](https://img.shields.io/badge/Fastify-black?style=for-the-badge&logo=fastify)
 ![ASP.NET](https://img.shields.io/badge/ASP.NET-%23512BD4.svg?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Gin](https://img.shields.io/badge/Gin-00ADD8?style=for-the-badge&logo=go&logoColor=white)
@@ -107,20 +124,11 @@ HTML — CSS — JavaScript — Laravel
 
 ---
 
-### Databases & Data Management
-
-> Practical experience working with relational databases across full-stack and production systems.  
-> Experienced in database design, querying, and maintenance workflows across multiple real-world projects.
-
-- SQLite: Used in full-stack ERP systems built from scratch  
-- PostgreSQL: Used in a production POS/BOS system for a wholesale business  
-- MySQL: Used in team-based backend-driven projects  
-- phpMyAdmin: Used as a database management tool for testing, inspection, and maintenance in team environments
-
+### Databases
 ![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-6C78AF?style=for-the-badge&logo=phpmyadmin&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-6C78AF.svg?style=for-the-badge&logo=phpmyadmin&logoColor=white)
 
 ---
 
@@ -136,21 +144,21 @@ HTML — CSS — JavaScript — Laravel
 
 - Large-scale frontend systems  
 - Multi-tenant SaaS architecture  
-- Performance optimization for UI-heavy applications  
+- Production system design  
 - REST API integration  
-- Modular UI design systems  
+- Modular UI architectures  
 - Role-based interfaces  
-- Data-heavy dashboard systems  
+- Data-heavy business systems  
 
 ---
 
 # 🎯 Current Goals
 
 - Improve advanced Vue architecture patterns  
-- Strengthen system design skills  
-- Build more production-level frontend systems  
-- Expand backend integration capabilities  
-- Improve performance engineering skills in frontend systems  
+- Strengthen system design knowledge  
+- Build more production-level systems  
+- Expand backend integration skills  
+- Improve performance engineering practices  
 
 ---
 
